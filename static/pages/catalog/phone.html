@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/sass/catalog/catalog.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <link rel="stylesheet" href="/sass/secondary/secondary.css" />
+    <link rel="stylesheet" href="/sass/main.css" />
+    <link rel="stylesheet" href="/sass/product/product.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/swiper-navigation.css" />
+    <title>Смартфон</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+
+    <div class="nav-01">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-1">
+            <a href="/" class="logo">
+              <img src="/img/logo.png" alt="" class="w-100" />
+            </a>
+          </div>
+          <div class="col-2 skoring">
+            <a class="btn"
+              ><i class="far fa-credit-card"></i>Skoringdan o`tish</a
+            >
+          </div>
+          <div class="col-4 search">
+            <form action="" method="get" class="d-flex align-items-center">
+              <input
+                type="text"
+                class="form-control"
+                name="search"
+                placeholder="Mahsulotlarni qidirish"
+              />
+              <a href="" class="btn btn-danger"><i class="fa fa-search"></i></a>
+            </form>
+          </div>
+          <div class="col-2 contact">
+            <div class="nav_phone d-flex">
+              <i class="fa fa-phone"></i>
+              <p>+998 99 999 99 99</p>
+            </div>
+            <div class="nav_email d-flex">
+              <i class="fa fa-envelope-open"></i>
+              <p>southgroup@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-2 d-flex justify-content-end">
+            <div class="my_Btn">
+              <a class="btn btn-danger mr-2" href="#">Login</a>
+            </div>
+            <div class="my_Btn">
+              <a class="btn btn-danger" href="#">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-02">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 d-flex align-items-center justify-content-between">
+            <a href="" class="btn katalog">
+              <i class="fas fa-th-list"></i>Katalog
+            </a>
+            <a href="" class="btn">Smartfonlar</a>
+            <a href="" class="btn">Televizorlar</a>
+            <a href="" class="btn">Kir yuvish mashinalari</a>
+            <a href="" class="btn">Muzlatkichlar</a>
+            <a href="" class="btn btn-light d-flex align-items-center">
+              Hamkorlik Qilish <i class="ml-3 fas fa-handshake"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Catalog   -->
+
+    <div class="catalog">
+      <div class="catalogTop">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1>Smartfonlar</h1>
+
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalogMain">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 leftCatalog">
+              <h2>Narx</h2>
+
+              <div
+                class="d-flex align-items-center justify-content-between inputWrap"
+              >
+                <div class="wrap myShadow">
+                  <label for="from">dan</label>
+                  <input
+                    type="number"
+                    id="from"
+                    placeholder="150 000"
+                    class="form-control"
+                  />
+                </div>
+
+                <div class="wrap myShadow">
+                  <label for="to">gacha</label>
+                  <input
+                    type="number"
+                    id="to"
+                    placeholder="31 625 000"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+
+              <h2>Ishlab chiqaruvchi</h2>
+
+              <div class="checkWrap">
+                <div class="wrap">
+                  <input type="checkbox" name="" id="check1" />
+                  <label for="check1">Apple <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="check2" />
+                  <label for="check2">Artel <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="check3" />
+                  <label for="check3">Honor <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="check4" />
+                  <label for="check4">Huawei <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="check5" />
+                  <label for="check5">Infinix <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="check6" />
+                  <label for="check6">Iphone <span>&#10004;</span></label>
+                </div>
+
+                <div id="more" class="collapse">
+                  <div class="wrap">
+                    <input type="checkbox" name="" id="aos2" />
+                    <label for="aos2">Nokia <span>&#10004;</span></label>
+                  </div>
+                  <div class="wrap">
+                    <input type="checkbox" name="" id="aos3" />
+                    <label for="aos3">OnePlus <span>&#10004;</span></label>
+                  </div>
+                  <div class="wrap">
+                    <input type="checkbox" name="" id="aos4" />
+                    <label for="aos4">Redmi <span>&#10004;</span></label>
+                  </div>
+                </div>
+                <p data-toggle="collapse" data-target="#more">
+                  <span>+ Koʻproq</span> <span>- Kamroq</span>
+                </p>
+              </div>
+
+              <h2>Operatsionnaya sistema</h2>
+
+              <div class="checkWrap">
+                <div class="wrap">
+                  <input type="checkbox" name="" id="android" />
+                  <label for="android">Android <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="aos" />
+                  <label for="aos">AOS <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="xiaomi" />
+                  <label for="xiaomi"
+                    >Xiaomi MIUI на основе Android <span>&#10004;</span></label
+                  >
+                </div>
+              </div>
+
+              <h2>Kolichestvo osnovnix (tilovix) kamer</h2>
+
+              <div class="checkWrap">
+                <div class="wrap">
+                  <input type="checkbox" name="" id="1" />
+                  <label for="1">1 <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="2" />
+                  <label for="2">2 <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="3" />
+                  <label for="3">3 <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="4" />
+                  <label for="4">4 <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="5" />
+                  <label for="5">5 <span>&#10004;</span></label>
+                </div>
+              </div>
+
+              <h2>Фронтальная камера</h2>
+
+              <div class="checkWrap">
+                <div class="wrap">
+                  <input type="checkbox" name="" id="10" />
+                  <label for="10">10 МП <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="20" />
+                  <label for="20">20 МП <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="30" />
+                  <label for="30">30 МП <span>&#10004;</span></label>
+                </div>
+                <div class="wrap">
+                  <input type="checkbox" name="" id="40" />
+                  <label for="40">40 МП <span>&#10004;</span></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 rightCatalog">
+              <div class="top">
+                <div class="d-flex align-items-center wrapDiv">
+                  <h2>Saralash:</h2>
+                  <h6>
+                    Ommaboblik bo'yicha
+                    <div class="myShadow">
+                      <h5 class="active">Ommaboblik bo'yicha</h5>
+                      <h5>Nom bo'yicha</h5>
+                      <h5>Avval arzonlari</h5>
+                      <h5>Avval qimmatlari</h5>
+                    </div>
+                  </h6>
+                </div>
+
+                <h3>Jami 227 topildi</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img src="/img/pop-category-01.jpg" class="images" alt="" />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/1.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/2.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/3.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/4.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/3.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/1.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/2.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img src="/img/pop-category-01.jpg" class="images" alt="" />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/3.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/1.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/2.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img src="/img/pop-category-01.jpg" class="images" alt="" />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/1.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/2.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/3.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/4.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/3.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/2.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/3.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/4.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/3.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/1.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 myCol">
+                  <a class="myCard" href="#">
+                    <img
+                      src="/img/popular-products/2.webp"
+                      class="images"
+                      alt=""
+                    />
+                    <h5>Narx: 1 900 000 so'm</h5>
+                    <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                    <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                    <div class="line"></div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100"
+                    >
+                      <h3>11 taklif</h3>
+                      <div class="heart scales">
+                        <i class="icon icon-heart scales"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="connection">
+              <h6 class="footer__title">Aloqalar</h6>
+              <div class="tel" style="margin-bottom: 15px">
+                <p>Telefon raqam:</p>
+                <a class="footer__link" href="tel:">+998900000000</a>
+              </div>
+              <div class="mail" style="margin-bottom: 15px">
+                <p>Email:</p>
+                <a class="footer__link" href="mailto:">info@domi.uz</a>
+              </div>
+              <div class="address">
+                <p>Manzil:</p>
+                <a class="footer__link" href="#"
+                  >100096, Toshkent shahri, Muqimiy ko'chasi 43-uy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="forclients">
+              <h6 class="footer__title">Mijozlar uchun</h6>
+              <ul>
+                <li>
+                  <a class="footer__links" href="#">Mijozlar uchun oferta</a>
+                </li>
+                <li>
+                  <a class="footer__links" href="#">Buyurtmani kuzatish</a>
+                </li>
+                <li><a class="footer__links" href="#">Xarid va to`lov</a></li>
+                <li>
+                  <a class="footer__links" href="#"
+                    >Mahsulotni qaytarish va almashtirish</a
+                  >
+                </li>
+                <li><a class="footer__links" href="#">Yetkazib berish</a></li>
+                <li><a class="footer__links" href="#">Kredit</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="partners">
+              <h6 class="footer__title">Hamkorlar uchun</h6>
+              <ul>
+                <li>
+                  <a class="footer__links" href="#">Mijozlar uchun oferta</a>
+                </li>
+                <li>
+                  <a class="footer__links" href="#">Buyurtmani kuzatish</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="socials">
+              <h6 class="footer__title">Ijtimoiy tarmoqlarimiz</h6>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-telegram-plane"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="../../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+  </body>
+</html>
